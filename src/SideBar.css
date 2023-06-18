@@ -1,0 +1,119 @@
+.side-bar {
+  position: sticky;
+  top: 80px;
+  flex: 0.2;
+  border-radius: 10px;
+  text-align: center;
+  height: fit-content;
+}
+
+.side-bar-avatar {
+  margin-bottom: 10px;
+}
+
+.side-bar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border: 1px solid #e6e6e6;
+  border-bottom: 0;
+  border-radius: 10px;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.side-bar-bg {
+  height: 60px;
+  margin-bottom: -20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.side-bar-title {
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.profile-info {
+  color: gray;
+  font-size: 14px;
+}
+
+.side-bar-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: -10px;
+  border: 1px solid #e6e6e6;
+  border-bottom: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(255, 255, 241);
+  padding-bottom: 10px;
+}
+
+.side-bar-list {
+  margin-top: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.side-bar-list-item {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.side-bar-number {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0a66c2 !important;
+  margin-left: 20px;
+}
+
+.side-bar-footer {
+  text-align: left;
+  padding: 10px;
+  border-top: 1px solid #e6e6e6;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.recent-articles {
+  display: flex;
+  font-size: 13px;
+  color: gray;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.recent-articles:hover {
+  border-radius: 10px;
+  background-color: rgb(247, 247, 247);
+  cursor: pointer;
+  color: black;
+}
+
+.recent-articles-hash {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.side-bar-footer > p {
+  font-size: 13px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  }
